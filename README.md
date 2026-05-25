@@ -1,4 +1,4 @@
-# 🌳 Tugas 3 — Eksplorasi dan Implementasi Tree
+# Tugas 3 — Eksplorasi dan Implementasi Tree
 ### ET234203 Struktur Data dan Pemrograman Berorientasi Objek
 
 ---
@@ -7,7 +7,7 @@
 
 ---
 
-## 📁 Struktur Repository
+## Struktur Repository
 
 ```
 DatStruct-AVL-Exploration/
@@ -18,7 +18,7 @@ DatStruct-AVL-Exploration/
 
 ---
 
-## 1. 📌 Problem Statement
+## 1.  Problem Statement
 
 Pada sistem basis data dan sistem berkas, operasi pencarian, penyisipan, dan penghapusan data dalam jumlah besar harus dilakukan secara efisien. Struktur data berbasis pohon biner (seperti BST atau AVL Tree) tidak cocok untuk penyimpanan di disk karena tinggi pohon yang besar mengakibatkan banyaknya operasi I/O.
 
@@ -31,7 +31,7 @@ Oleh sebab itu, dibutuhkan struktur data yang:
 
 ---
 
-## 2. 🧠 Penjelasan Struktur & Algoritma
+## 2. Penjelasan Struktur & Algoritma
 
 ### 2.1 B-Tree
 
@@ -86,7 +86,7 @@ B+ Tree adalah modifikasi B-Tree dengan perbedaan utama:
 
 ---
 
-## 3. 📊 Diagram Visualisasi
+## 3. Diagram Visualisasi
 
 ### B-Tree Orde 3 — setelah insert: 10, 20, 5, 6, 12, 30, 7, 17
 
@@ -114,7 +114,7 @@ Leaf chain (linked list):
 
 ---
 
-## 4. 🏗️ Aplikasi Nyata
+## 4. Aplikasi Nyata
 
 | Struktur | Digunakan di |
 |---|---|
@@ -123,7 +123,7 @@ Leaf chain (linked list):
 
 ---
 
-## 5. ✅ Keunggulan
+## 5. Keunggulan
 
 ### B-Tree
 - Tinggi pohon rendah → operasi I/O minimal untuk data bervolume besar
@@ -139,7 +139,7 @@ Leaf chain (linked list):
 
 ---
 
-## 6. ❌ Kekurangan
+## 6. Kekurangan
 
 ### B-Tree
 - Range query kurang efisien: harus traversal pohon untuk setiap elemen
@@ -153,7 +153,7 @@ Leaf chain (linked list):
 
 ---
 
-## 7. ⚖️ Perbandingan Teori
+## 7. Perbandingan Teori
 
 | Kriteria | B-Tree | B+ Tree |
 |---|---|---|
@@ -167,7 +167,7 @@ Leaf chain (linked list):
 
 ---
 
-## 8. 🔢 Analisis Kompleksitas
+## 8. Analisis Kompleksitas
 
 | Operasi | B-Tree | B+ Tree |
 |---|---|---|
@@ -182,7 +182,7 @@ Leaf chain (linked list):
 
 ---
 
-## 9. 🚀 Potensi Pengembangan ke Depan
+## 9. Potensi Pengembangan ke Depan
 
 1. **B\*-Tree** — menunda split sampai sibling juga penuh → mengurangi frekuensi split & meningkatkan utilisasi node
 2. **Bε-Tree (Buffer Tree)** — buffer di setiap node internal untuk workload write-heavy (digunakan di TokuDB)
@@ -193,7 +193,7 @@ Leaf chain (linked list):
 
 ---
 
-## 10. 💻 Cara Menjalankan
+## 10. Cara Menjalankan
 
 ### Prasyarat
 - Java JDK 8 atau lebih baru
@@ -240,7 +240,7 @@ Range [20, 30] : [20, 25, 30]
 
 ---
 
-## 11. 📈 Perbandingan Performa Real
+## 11. Perbandingan Performa Real
 
 Pengujian dengan **100.000 data** pada kedua implementasi:
 
@@ -255,7 +255,7 @@ Pengujian dengan **100.000 data** pada kedua implementasi:
 
 ---
 
-## 📚 Referensi Paper
+## Referensi Paper
 
 1. Comer, D. (1979). **Ubiquitous B-Tree**. *ACM Computing Surveys*, 11(2), 121–137.
    https://doi.org/10.1145/356770.356776
