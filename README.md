@@ -1,5 +1,5 @@
-# B-Tree & B+ Tree — Eksplorasi dan Implementasi
-**ET234203 Struktur Data dan Pemrograman Berorientasi Objek — Tugas 3**
+# Eksplorasi dan Implementasi B-Tree & B+ Tree 
+**Struktur Data dan Pemrograman Berorientasi Objek**
 
 ---
 
