@@ -18,7 +18,7 @@ DatStruct-AVL-Exploration/
 
 ---
 
-## 1.  Problem Statement
+## 1. Problem Statement
 
 Pada sistem basis data dan sistem berkas, operasi pencarian, penyisipan, dan penghapusan data dalam jumlah besar harus dilakukan secara efisien. Struktur data berbasis pohon biner (seperti BST atau AVL Tree) tidak cocok untuk penyimpanan di disk karena tinggi pohon yang besar mengakibatkan banyaknya operasi I/O.
 
@@ -86,7 +86,7 @@ B+ Tree adalah modifikasi B-Tree dengan perbedaan utama:
 
 ---
 
-## 3. Diagram Visualisasi
+## 3. 📊 Diagram Visualisasi
 
 ### B-Tree Orde 3 — setelah insert: 10, 20, 5, 6, 12, 30, 7, 17
 
@@ -257,12 +257,13 @@ Pengujian dengan **100.000 data** pada kedua implementasi:
 
 ## Referensi Paper
 
-1. Comer, D. (1979). **Ubiquitous B-Tree**. *ACM Computing Surveys*, 11(2), 121–137.
-   https://doi.org/10.1145/356770.356776
+1. Sun, S., Gao, C., Ballijepalli, S., & Wang, J. (2025). **An Evaluation of B-Tree Compression Techniques**. *The VLDB Journal*, 35(1).
+   https://doi.org/10.1007/s00778-025-00950-8
+   > Melakukan evaluasi eksperimental komprehensif pertama terhadap tujuh teknik kompresi B-Tree, mencakup performa point query, range query, dan insert pada berbagai dataset nyata maupun sintetis.
 
-2. Graefe, G. (2011). **Modern B-Tree Techniques**. *Foundations and Trends in Databases*, 3(4), 203–402.
-   https://doi.org/10.1561/1900000028
-
+2. Xu, H., Li, A., Wheatman, B., Marneni, M., & Pandey, P. (2023). **BP-Tree: Overcoming the Point-Range Operation Tradeoff for In-Memory B-Trees**. *Proceedings of the VLDB Endowment*, 16(11), 2976–2989.
+   https://doi.org/10.14778/3611479.3611502
+   > Membahas B+ Tree secara mendalam, menganalisis trade-off antara point query dan range query, dan memperkenalkan varian BP-Tree dengan leaf node berukuran besar untuk performa range scan yang lebih baik.
 ---
 
 <div align="center">
